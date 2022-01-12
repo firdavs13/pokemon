@@ -1,0 +1,200 @@
+/* GENEREAL */
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* POKEMON */
+
+.pokemon {
+  background-color: #ffd845;
+}
+
+.pokemon__top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.pokemon__logo {
+  width: 610px;
+  height: 225px;
+}
+
+.pokemon__elemet {
+  width: 50px;
+  height: 50px;
+}
+
+
+/* Pokemon Form */
+
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form__select {
+  padding: 16px 81px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  border: 3px solid #000000;
+  border-radius: 15px;
+}
+
+.form__input {
+  padding: 16px 20px;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+border: 3px solid #000000;
+border-radius: 15px;
+}
+
+.form__button {
+  padding: 16px 64px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.form__input::placeholder{
+  color: #000000;
+}
+
+.input__group{
+    position: relative;
+}
+
+.input__element{
+    position: absolute;
+    top: 30%;
+    left: 260px;
+    width: 24px;
+    height: 24px;
+}
+
+/* Pokimon Card */
+
+.pokimon__list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: -15px;
+
+}
+
+.pokimon__item{
+    list-style: none;
+    margin: 15px;
+}
+
+.item__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    width: 255px;
+}
+
+.desc_wrap{
+    width: 100%;
+    padding: 30px;
+    border-top: 2px solid black;
+}
+
+.item__img{
+    width: 157px;
+    height: 157px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.item__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item__desc{
+    margin: 0px;
+    margin-bottom: 25px;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.item__desc:nth-child(1){
+    margin-right: 20px;
+}
+
+.item__heading {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.item__top-element{
+    width: 30px;
+    height: 30px;
+}
+
+.item__num {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.item__num:nth-child(1){
+    margin-right: 20px;
+}
+
+.item__bot {
+  display: flex;
+}
